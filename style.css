@@ -1,14 +1,22 @@
 body {
     background-color: lightblue;
-    }
-    
-    h1 {
+}
+h1 {
     color: navy;
     margin-left: 20px;
-    }
-    ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style-type: none;
-    }
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+ul li a {
+    display: block;
+    margin:0px 10px;
+    padding:10px;
+    background-color: #ef9b9b;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 10px;
+}
