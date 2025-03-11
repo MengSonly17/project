@@ -6,3 +6,9 @@ body {
     color: navy;
     margin-left: 20px;
     }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
